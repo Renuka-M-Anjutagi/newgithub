@@ -1,0 +1,344 @@
+.header
+{
+  padding: 20px 16px;
+  background: #555;
+  color: #f1f1f1;
+  text-align: center;
+}
+span{
+    padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  text-align: center;
+}
+.main{
+   
+    height: 900px !important;
+   
+    overflow-y: visible;
+    background-color: #e5efe7c7 !important;
+    padding: 60px;
+    margin: 0px;
+  
+}
+.leftbar{
+    width: 40%;
+    border-radius: 30px;
+    float: left;
+    height: 500px;
+  
+   
+}
+.leftsaid{
+    width: 80%;
+    border-radius: 30px;
+    float: left;
+    height: 500px;
+    
+    background-color: #555;
+}
+.rightbar{
+    width: 60%;
+    border-radius: 30px;
+    float: right;
+    height: 500px;
+    
+}
+.imagebox{
+
+  
+    height: 250px;
+    padding: 50px 0px 50px 0px;
+    margin-left: 50px;
+  
+}
+.search
+{
+    width: 550px;
+    border-radius: 5px;
+    float: center;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(230, 221, 221);
+    font-weight: 300;
+    font-family: monospace;
+    padding: 10px 35px;
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-top: -40px;
+    background-color: #555;
+
+}
+.img1{
+    width: 200px;
+    display: flex;
+    direction: row;
+    height: 120px;
+    float: left;
+    background-color: #555;
+    margin: 30px;
+    border-radius: 15px;
+}
+.img2{
+    width: 200px;
+    display: flex;
+    direction: row;
+
+    height: 120px;
+    float: left;
+    margin: 30px;
+    background-color: #555;
+    border-radius: 15px;
+}
+
+.img3{
+    width: 200px;
+    display: flex;
+    direction: row;
+    height: 120px;
+    float: left;
+    margin: 30px;
+    background-color: #555;
+    border-radius: 15px;
+    
+}
+
+.contentbox{
+
+    width: 720px;
+    background-color: #555;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 200px;
+  
+    margin-left: 30px;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 1000px) and (orientation : Landscape) {
+    
+    .main{
+         
+       
+     
+         height: 1500px !important;
+   
+    overflow-y: visible;
+        background-color: #e5efe7c7 !important;
+        padding: 60px;
+       
+      
+    }
+    .leftbar{
+      
+        width: 100%;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .leftsaid{
+        width: 100%;
+    }
+    .rightbar{
+        width:100%;
+    }
+    .imagebox{
+        width: 100%;
+    }
+    .search {
+       
+        width: auto !important;
+        margin-left: 0px !important;
+        margin-right: 100px !important;
+        background-color: #555;
+    }
+    .img1{
+        margin-left: 0px !important;
+        margin-right: 100px !important;
+        background-color: #555;
+    }
+    .img2{
+        margin-left: 0px !important;
+        margin-right: 100px !important;
+        background-color: #555;
+    }
+    
+    .img3{
+        margin-left: 0px !important;
+        margin-right: 100px !important;
+        background-color: #555;
+        
+    }
+    
+    .contentbox{
+    
+        width: auto !important;
+    display: flex !important;
+    direction: column !important;
+    background-color: #555;
+    /* padding: 200px; */
+    border-radius: 20px;
+    margin-top: 550px !important;
+    /* padding-right: 270px !important; */
+    /* margin: auto !important; */
+    margin-left: -51px !important;
+    margin-right: 53px;
+    /* padding-left: 0px !important;*/
+      
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
+    
+
+    .contentbox {
+        width: auto !important;
+        display: flex !important;
+        direction: column !important;
+        background-color: #555;
+        /* padding: 200px; */
+        border-radius: 20px;
+        margin-top: 550px !important;
+        /* padding-right: 270px !important; */
+        /* margin: auto !important; */
+        margin-left: -51px !important;
+        margin-right: 53px;
+        /* padding-left: 0px !important;*/
+          
+    }
+.search
+{
+     width: auto !important;
+    border-radius: 5px;
+    float: center;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(230, 221, 221);
+    font-weight: 300;
+    font-family: monospace;
+    padding: 10px 35px;
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-top: -40px;
+    background-color: #555;
+
+}
+.img1{
+    width: 200px;
+    display: flex;
+    direction: row;
+    height: 120px;
+    float: left;
+    background-color: #555;
+    margin: 30px;
+    border-radius: 15px;
+}
+.img2{
+    width: 200px;
+    display: flex;
+    direction: row;
+
+    height: 120px;
+    float: left;
+    margin: 30px;
+    background-color: #555;
+    border-radius: 15px;
+}
+
+.img3{
+    width: 200px;
+    display: flex;
+    direction: row;
+    height: 120px;
+    float: left;
+    margin: 30px;
+    background-color: #555;
+    border-radius: 15px;
+    
+}
+
+.contentbox{
+
+    width: 720px;
+    background-color: #555;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 200px;
+  
+   margin-left: 30px;
+}
+
+    
+}
+@media only screen and(max-width : 1500px)and (orientation : Landscape) {
+    
+
+.search
+{
+    width: auto !important;
+    border-radius: 5px;
+    float: center;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(230, 221, 221);
+    font-weight: 300;
+    font-family: monospace;
+    padding: 10px 35px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: -40px;
+    background-color: #555;
+
+}
+.img1{
+    width: 200px;
+    display: flex;
+    direction: row;
+    height: 120px;
+    float: left;
+    background-color: #555;
+    margin: 30px;
+    border-radius: 15px;
+}
+.img2{
+    width: 200px;
+    display: flex;
+    direction: row;
+
+    height: 120px;
+    float: left;
+    margin: 30px;
+    background-color: #555;
+    border-radius: 15px;
+}
+
+.img3{
+    width: 200px;
+    display: flex;
+    direction: row;
+    height: 120px;
+    float: left;
+    margin: 30px;
+    background-color: #555;
+    border-radius: 15px;
+    
+}
+
+.contentbox{
+
+    width:auto !important;
+    background-color: #555;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 524px;
+  
+   margin-left: 30px;
+}
+}
+
+.footer
+{
+  padding: 20px 16px;
+  background: #555;
+  color: #f1f1f1;
+  text-align: center;
+}
